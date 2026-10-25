@@ -9,7 +9,7 @@ Learn to test an application end to end, inspect the evidence, introduce a regre
 | React payments | [React/Express sample](https://github.com/contextqaai/testing-lab-react-payments) | [Five exercises](https://github.com/contextqaai/testing-lab-react-payments/blob/develop/lab/README.md) | Local setup available; public hosting pending |
 | Angular Conduit | [Angular workflow sample](https://github.com/contextqaai/testing-lab-angular-conduit) | [Five exercises](https://github.com/contextqaai/testing-lab-angular-conduit/blob/main/lab/README.md) | Local setup available; owned backend/public hosting pending |
 | Java PetClinic | [Spring business forms sample](https://github.com/contextqaai/testing-lab-java-petclinic) | [Five exercises](https://github.com/contextqaai/testing-lab-java-petclinic/blob/main/lab/README.md) | Local setup available; isolated public hosting pending |
-| HTML/JavaScript | [Vanilla TodoMVC starter](https://github.com/contextqaai/testing-lab-html-todomvc) | [Five exercises](https://github.com/contextqaai/testing-lab-html-todomvc/blob/master/lab/README.md) | Static package in docs; see deployment status before using its URL |
+| HTML/JavaScript | [Vanilla TodoMVC starter](https://github.com/contextqaai/testing-lab-html-todomvc) | [Five exercises](https://github.com/contextqaai/testing-lab-html-todomvc/blob/master/lab/README.md) | [Open app](https://contextqaai.github.io/testing-lab-html-todomvc/) · [Memory-only variant](https://contextqaai.github.io/testing-lab-html-todomvc/regression-memory-only/) |
 
 ## The learning journey
 
@@ -36,3 +36,5 @@ The [content kit](content/README.md) includes a course outline, a flagship video
 ## Attribution
 
 React payments is an educational fork of Cypress's Real World App (MIT); Angular Conduit is a fork of realworld-apps/angular-realworld-example-app (MIT with separate Angular trademark notice); Java is a fork of Spring PetClinic (Apache-2.0); HTML is the vanilla JavaScript example from TodoMVC (MIT unless otherwise specified). Preserve upstream notices and inspect dependencies separately. These source projects do not imply upstream endorsement or production certification.
+
+The [public hub](https://contextqaai.github.io/testing-lab/) and HTML app are deployed. The HTML lesson contrasts persistence across reloads with the original memory-only behavior. It is still not a ContextQA execution report.
