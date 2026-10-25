@@ -1,0 +1,258 @@
+[
+  {
+    "title": "React payments",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express"
+    ],
+    "summary": "Simulated payments, recipient and amount assertions.",
+    "repo": "testing-lab-react-payments",
+    "branch": "develop",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; hosting pending",
+    "type": "app"
+  },
+  {
+    "title": "Angular workflows",
+    "tags": [
+      "Angular",
+      "TypeScript"
+    ],
+    "summary": "Publishing, profiles and pagination.",
+    "repo": "testing-lab-angular-conduit",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; hosting pending",
+    "type": "app"
+  },
+  {
+    "title": "Java Spring Boot",
+    "tags": [
+      "Java",
+      "Spring Boot"
+    ],
+    "summary": "Owners, pets, visits and relationships.",
+    "repo": "testing-lab-java-petclinic",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; hosting pending",
+    "type": "app"
+  },
+  {
+    "title": "HTML / JavaScript starter",
+    "tags": [
+      "HTML",
+      "JavaScript"
+    ],
+    "summary": "Add, edit, filter and browser persistence.",
+    "repo": "testing-lab-html-todomvc",
+    "branch": "master",
+    "guide": "lab/README.md",
+    "hosted_url": "https://contextqaai.github.io/testing-lab-html-todomvc/",
+    "status": "Hosted practice app",
+    "type": "app"
+  },
+  {
+    "title": "Modern .NET \u00b7 eShop",
+    "tags": [
+      ".NET",
+      "C#",
+      "Aspire",
+      "distributed services"
+    ],
+    "summary": "Start with the upstream SDK, Aspire and container prerequisites. This is a multi-service reference app; a frontend-only deploy is incomplete. Pin dependencies, configure synthetic identity/catalog data, and inspect each service required by the chosen checkout flow.",
+    "repo": "testing-lab-dotnet-eshop",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; deployment pending",
+    "type": "app"
+  },
+  {
+    "title": "ASP.NET Core \u00b7 monolith",
+    "tags": [
+      ".NET",
+      "C#",
+      "ASP.NET Core",
+      "monolith"
+    ],
+    "summary": "Follow the maintained upstream setup. This is an ASP.NET Core monolith, not classic .NET Framework or Web Forms. Use the exact SDK/database configuration in this source and synthetic catalog data.",
+    "repo": "testing-lab-dotnet-monolith",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; deployment pending",
+    "type": "app"
+  },
+  {
+    "title": "MERN \u00b7 React + Express + MongoDB",
+    "tags": [
+      "MERN",
+      "Node.js",
+      "Express",
+      "React",
+      "MongoDB",
+      "Replit"
+    ],
+    "summary": "Use mern/client and mern/server with a dedicated synthetic MongoDB database. Configure ATLAS_URI privately. The source has no backend request-body validation or shared-user isolation; do not expose a mutable shared deployment without addressing those gaps. These missing safeguards can be explicitly disclosed failure lessons.",
+    "repo": "testing-lab-mern-records",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; deployment pending",
+    "type": "app"
+  },
+  {
+    "title": "Java \u00b7 Spring MVC / JSP",
+    "tags": [
+      "Java",
+      "Spring MVC",
+      "JSP",
+      "server-rendered",
+      "older architecture"
+    ],
+    "summary": "Follow upstream build/runtime prerequisites. Older architecture does not imply an unsupported old Java runtime. Compare the same business assertions with the Spring Boot PetClinic track after independently seeding each app.",
+    "repo": "testing-lab-java-mvc-jsp",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; deployment pending",
+    "type": "app"
+  },
+  {
+    "title": "SAP web \u00b7 Fiori / UI5 / CAP",
+    "tags": [
+      "SAP",
+      "Fiori",
+      "UI5",
+      "CAP",
+      "OData",
+      "Node.js"
+    ],
+    "summary": "Use upstream npm install/build guidance. Development mode uses in-memory data and sample credentials; production auth/database configuration is not supplied by the sample. This is a UI5/CAP event app, not ECC, S/4HANA or native SAP GUI. Public multi-user hosting needs its own identity and isolated data.",
+    "repo": "testing-lab-sap-fiori-cap",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; deployment pending",
+    "type": "app"
+  },
+  {
+    "title": "Salesforce \u00b7 Lightning / LWC",
+    "tags": [
+      "Salesforce",
+      "Lightning",
+      "LWC",
+      "Apex",
+      "enterprise"
+    ],
+    "summary": "Deploy only into an authorized scratch org, Developer Edition or suitable sandbox following upstream instructions. Configure permission sets and synthetic data. This app runs on Salesforce Platform and cannot be hosted as a complete Salesforce org on Cloud Run.",
+    "repo": "testing-lab-salesforce-lwc",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Requires Salesforce org",
+    "type": "app"
+  },
+  {
+    "title": "Salesforce \u00b7 Visualforce \u2192 LWC",
+    "tags": [
+      "Salesforce",
+      "Visualforce",
+      "LWC",
+      "migration",
+      "older architecture"
+    ],
+    "summary": "Use an authorized Salesforce org. Select one of the actual paired Visualforce/LWC patterns in the source before recording. A Visualforce example is not blanket Salesforce Classic coverage; Classic needs its own enabled environment.",
+    "repo": "testing-lab-salesforce-visualforce",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Requires Salesforce org",
+    "type": "app"
+  },
+  {
+    "title": "Next.js \u00b7 Vercel dashboard",
+    "tags": [
+      "Next.js",
+      "React",
+      "Vercel",
+      "PostgreSQL",
+      "modern web"
+    ],
+    "summary": "Use dashboard/final-example for the completed course example rather than dashboard/starter-example. Configure the required database and authentication environment privately before Vercel import. Source setup is available; no Vercel deployment has been performed.",
+    "repo": "testing-lab-nextjs-vercel",
+    "branch": "main",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; deployment pending",
+    "type": "app"
+  },
+  {
+    "title": "Node.js / Express API",
+    "tags": [
+      "Node.js",
+      "Express",
+      "API",
+      "MongoDB"
+    ],
+    "summary": "Use the MERN backend independently. Practice REST CRUD and a disclosed validation gap.",
+    "repo": "testing-lab-mern-records",
+    "branch": "main",
+    "guide": "lab/NODE-API.md",
+    "hosted_url": null,
+    "status": "Source + API lesson; hosting pending",
+    "type": "app"
+  },
+  {
+    "title": "Built with Lovable",
+    "tags": [
+      "Lovable",
+      "React",
+      "AI builders"
+    ],
+    "summary": "Bring your published app. Test saved data, invalid input and actual user permissions.",
+    "repo": null,
+    "guide": "PLATFORMS.md#lovable",
+    "hosted_url": null,
+    "status": "Platform guide; no Lovable-built deployment verified",
+    "type": "platform"
+  },
+  {
+    "title": "Built with Replit",
+    "tags": [
+      "Replit",
+      "Node.js",
+      "React",
+      "AI builders"
+    ],
+    "summary": "Import a repo, configure secrets/database and test the deployed workflow. Import is not deployment.",
+    "repo": null,
+    "guide": "PLATFORMS.md#replit",
+    "hosted_url": null,
+    "status": "Platform guide; import/deployment unverified",
+    "type": "platform"
+  },
+  {
+    "title": "SAP ECC / S/4HANA / classic GUI",
+    "tags": [
+      "SAP",
+      "ECC",
+      "S/4HANA",
+      "WebGUI",
+      "Web Dynpro",
+      "desktop",
+      "older architecture"
+    ],
+    "summary": "Use a genuine authorized enterprise sandbox. The public Fiori/CAP sample is not an ERP tenant. Native Windows SAP GUI needs separate runner qualification.",
+    "repo": null,
+    "guide": "PLATFORMS.md#sap-old-and-new-represent-the-real-boundary",
+    "hosted_url": null,
+    "status": "Sandbox/runner required; no live environment",
+    "type": "enterprise"
+  }
+]

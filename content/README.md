@@ -52,3 +52,9 @@ Choose a React/Angular, Java/Spring or testing educator whose audience includes 
 Suggested pilot scope to negotiate: one substantial video, two clips and a written recap. Supply a pinned release, synthetic fixtures, explicit assertions, known issues and technical help. Give every content piece a distinct attributed scenario link. Agree sponsorship disclosure, compensation, correction handling and footage reuse rights separately. No creator contact or payment is implied by this brief.
 
 Evaluate qualified first-run completions, own-app completions, cost and support burden. Do not pay for positive claims, fake comments, stars or manufactured testimonials.
+
+## Stack-specific series expansion
+
+Modern developer playlist: .NET eShop, ASP.NET Core monolith, Spring Boot, MERN, Node API, Angular and Next.js. Modernization playlist: Java MVC/JSP versus Boot and paired Salesforce Visualforce/LWC behavior. Enterprise playlist: real Salesforce org exercises and the clearly scoped SAP Fiori/CAP web sample; ECC/S/4HANA/native SAP GUI episodes wait for actual sandbox/runner evidence. AI-builder playlist: bring a Lovable app, import/configure a Replit app, and validate a Vercel preview.
+
+Each episode needs its own source, platform/runtime requirements, fixture, explicit assertion and actual report. Platform names are audience entry points, not claims of verified deployment. Migration episodes use matched business outcomes, not unsupported claims of automatic framework conversion. Do not market the current 120-minute outline as covering every added stack: publish modular playlists and separate beginner/enterprise courses.
