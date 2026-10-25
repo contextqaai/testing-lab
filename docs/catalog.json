@@ -64,7 +64,7 @@
       "Aspire",
       "distributed services"
     ],
-    "summary": "Start with the upstream SDK, Aspire and container prerequisites. This is a multi-service reference app; a frontend-only deploy is incomplete. Pin dependencies, configure synthetic identity/catalog data, and inspect each service required by the chosen checkout flow.",
+    "summary": "Practice product search, basket quantities, totals and a synthetic checkout across services.",
     "repo": "testing-lab-dotnet-eshop",
     "branch": "main",
     "guide": "lab/README.md",
@@ -80,7 +80,7 @@
       "ASP.NET Core",
       "monolith"
     ],
-    "summary": "Follow the maintained upstream setup. This is an ASP.NET Core monolith, not classic .NET Framework or Web Forms. Use the exact SDK/database configuration in this source and synthetic catalog data.",
+    "summary": "Practice server-rendered commerce and compare its behavior with the distributed .NET example.",
     "repo": "testing-lab-dotnet-monolith",
     "branch": "main",
     "guide": "lab/README.md",
@@ -98,7 +98,7 @@
       "MongoDB",
       "Replit"
     ],
-    "summary": "Use mern/client and mern/server with a dedicated synthetic MongoDB database. Configure ATLAS_URI privately. The source has no backend request-body validation or shared-user isolation; do not expose a mutable shared deployment without addressing those gaps. These missing safeguards can be explicitly disclosed failure lessons.",
+    "summary": "Create, edit and remove synthetic employee records across React, Express and MongoDB.",
     "repo": "testing-lab-mern-records",
     "branch": "main",
     "guide": "lab/README.md",
@@ -115,7 +115,7 @@
       "server-rendered",
       "older architecture"
     ],
-    "summary": "Follow upstream build/runtime prerequisites. Older architecture does not imply an unsupported old Java runtime. Compare the same business assertions with the Spring Boot PetClinic track after independently seeding each app.",
+    "summary": "Repeat owner, pet and visit assertions on an older server-rendered Java architecture.",
     "repo": "testing-lab-java-mvc-jsp",
     "branch": "main",
     "guide": "lab/README.md",
@@ -133,7 +133,7 @@
       "OData",
       "Node.js"
     ],
-    "summary": "Use upstream npm install/build guidance. Development mode uses in-memory data and sample credentials; production auth/database configuration is not supplied by the sample. This is a UI5/CAP event app, not ECC, S/4HANA or native SAP GUI. Public multi-user hosting needs its own identity and isolated data.",
+    "summary": "Practice event registration, administrator views and drafts in a SAP Fiori/CAP web sample.",
     "repo": "testing-lab-sap-fiori-cap",
     "branch": "main",
     "guide": "lab/README.md",
@@ -150,7 +150,7 @@
       "Apex",
       "enterprise"
     ],
-    "summary": "Deploy only into an authorized scratch org, Developer Edition or suitable sandbox following upstream instructions. Configure permission sets and synthetic data. This app runs on Salesforce Platform and cannot be hosted as a complete Salesforce org on Cloud Run.",
+    "summary": "Practice product search, filtering and a reseller journey in an authorized Salesforce org.",
     "repo": "testing-lab-salesforce-lwc",
     "branch": "main",
     "guide": "lab/README.md",
@@ -167,7 +167,7 @@
       "migration",
       "older architecture"
     ],
-    "summary": "Use an authorized Salesforce org. Select one of the actual paired Visualforce/LWC patterns in the source before recording. A Visualforce example is not blanket Salesforce Classic coverage; Classic needs its own enabled environment.",
+    "summary": "Compare equivalent behavior in Visualforce and Lightning components during a migration.",
     "repo": "testing-lab-salesforce-visualforce",
     "branch": "main",
     "guide": "lab/README.md",
@@ -184,7 +184,7 @@
       "PostgreSQL",
       "modern web"
     ],
-    "summary": "Use dashboard/final-example for the completed course example rather than dashboard/starter-example. Configure the required database and authentication environment privately before Vercel import. Source setup is available; no Vercel deployment has been performed.",
+    "summary": "Practice authentication, invoices, search and edits using the completed Next.js dashboard.",
     "repo": "testing-lab-nextjs-vercel",
     "branch": "main",
     "guide": "lab/README.md",
