@@ -64,3 +64,7 @@ Additional educational forks: dotnet/eShop and NimblePros/eShopOnWeb (MIT); mong
 [Public learning hub](https://contextqaai.github.io/testing-lab/) · [Stack/platform setup](https://github.com/contextqaai/testing-lab/blob/main/PLATFORMS.md) · [Report or reproduce an issue](https://github.com/contextqaai/testing-lab/issues)
 
 This is an educational learning resource. Original source, licenses and credits remain intact. Public report links appear only after actual execution; recorded evidence is labeled separately from a fresh run.
+
+## Reproduce, triage and fix
+
+[Explore the two evidence-backed cases](https://contextqaai.github.io/testing-lab/triage.html): a reproduced API status defect with an open fix PR, and a disclosed browser persistence regression with a verified baseline. [Walkthrough and verification limits](TRIAGE.md).
