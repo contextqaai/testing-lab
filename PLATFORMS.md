@@ -79,3 +79,7 @@ Requested future examples can include Python/Django/FastAPI, PHP/Laravel, Vue/Nu
 Build four playlists: modern developer stacks; older-app modernization; enterprise SAP/Salesforce; and AI app builders. Every episode links to its precise source, version, setup requirements and actual report when available.
 
 Use a migration challenge for Java MVC → Spring Boot and Visualforce → LWC: “Did the behavior survive the migration?” Use a release challenge for Vercel/Lovable/Replit: “Did this change break the app I just shipped?” Use an enterprise scenario only in a genuine sandbox with role-appropriate records. The common promise is inspectable business assertions, not identical infrastructure.
+
+## Enterprise access assessment
+
+See [Oracle, SAP, Workday, ServiceNow, Pega and Infor](ENTERPRISE.md) for current source-backed paths and proposed exercises. These access guides do not certify runtime compatibility or grant tenant/demo rights. Oracle APEX source now has a separate versioned fork; the main branch of the upstream catalog is not itself the Customers app.

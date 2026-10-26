@@ -254,5 +254,100 @@
     "hosted_url": null,
     "status": "Sandbox/runner required; no live environment",
     "type": "enterprise"
+  },
+  {
+    "title": "Oracle APEX \u00b7 Customers",
+    "tags": [
+      "Oracle",
+      "APEX",
+      "SQL",
+      "enterprise"
+    ],
+    "summary": "Practice customer records, contacts, activities and filtered reports using a versioned official starter.",
+    "repo": "testing-lab-oracle-apex",
+    "branch": "26.2",
+    "guide": "lab/README.md",
+    "hosted_url": null,
+    "status": "Source + exercises; compatible APEX workspace required",
+    "type": "app"
+  },
+  {
+    "title": "Oracle Fusion / E-Business Suite",
+    "tags": [
+      "Oracle",
+      "Fusion",
+      "EBS",
+      "Forms",
+      "enterprise"
+    ],
+    "summary": "Qualify the actual ERP test tenant and browser surface. APEX alone does not demonstrate Fusion or EBS.",
+    "repo": null,
+    "guide": "enterprise/oracle.md",
+    "hosted_url": null,
+    "status": "Access guide; test environment unverified",
+    "type": "enterprise"
+  },
+  {
+    "title": "Workday \u00b7 development tenant",
+    "tags": [
+      "Workday",
+      "Extend",
+      "HCM",
+      "enterprise"
+    ],
+    "summary": "A personal development tenant beta is now advertised. Start with an approved synthetic Extend request workflow.",
+    "repo": null,
+    "guide": "enterprise/workday.md",
+    "hosted_url": null,
+    "status": "Access route found; tenant and demo rights unverified",
+    "type": "enterprise"
+  },
+  {
+    "title": "ServiceNow \u00b7 workflow lab",
+    "tags": [
+      "ServiceNow",
+      "ITSM",
+      "service request",
+      "enterprise"
+    ],
+    "summary": "Use an approved demo/test instance for request routing and status changes. PDI learning access does not establish business-demo rights.",
+    "repo": null,
+    "guide": "enterprise/servicenow.md",
+    "hosted_url": null,
+    "status": "Access guide; permitted demo instance required",
+    "type": "enterprise"
+  },
+  {
+    "title": "Pega \u00b7 case management",
+    "tags": [
+      "Pegasystems",
+      "Pega",
+      "case management",
+      "Constellation",
+      "enterprise"
+    ],
+    "summary": "Qualify a compatible practice or nonproduction environment for case creation, approval and completion.",
+    "repo": null,
+    "guide": "enterprise/pega.md",
+    "hosted_url": null,
+    "status": "Practice route found; tenant and demo rights unverified",
+    "type": "enterprise"
+  },
+  {
+    "title": "Infor \u00b7 CloudSuite / ERP",
+    "tags": [
+      "Infor",
+      "CloudSuite",
+      "M3",
+      "LN",
+      "SyteLine",
+      "enterprise"
+    ],
+    "summary": "Choose a specific Infor product and test tenant, then verify a synthetic item or order workflow.",
+    "repo": null,
+    "guide": "enterprise/infor.md",
+    "hosted_url": null,
+    "status": "Access guide; product-specific tenant required",
+    "type": "enterprise"
   }
 ]

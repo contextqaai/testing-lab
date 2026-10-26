@@ -1,0 +1,155 @@
+[
+  {
+    "id": "oracle",
+    "vendor": "Oracle",
+    "route": "APEX sample first; Fusion/EBS separately",
+    "source_repo": "https://github.com/contextqaai/testing-lab-oracle-apex",
+    "access": "Compatible APEX workspace for Customers; authorized licensed test tenant for Fusion/EBS.",
+    "finding": "The official APEX repository supplies versioned installable apps. Customers is now forked on branch 26.2. Oracle Forms may run outside the browser; the exact surface must be qualified.",
+    "limit": "APEX is not Fusion ERP or EBS. No workspace import or live Oracle URL is verified.",
+    "scenario": "Create a synthetic customer, add a contact, log activity and verify the filtered report.",
+    "sources": [
+      "https://github.com/oracle/apex",
+      "https://oracle.github.io/apex/",
+      "https://docs.oracle.com/en/middleware/developer-tools/forms/14.1.2/working-forms/java-web-start.html"
+    ],
+    "needs": [
+      "APEX version and workspace",
+      "Dedicated test identity/schema",
+      "Import and public-demo permission",
+      "Seed/reset plan"
+    ],
+    "assessed_on": "2026-10-25",
+    "live_environment_verified": false,
+    "crawler_execution_verified": false,
+    "contextqa_execution_verified": false,
+    "public_demo_rights_verified": false
+  },
+  {
+    "id": "sap",
+    "vendor": "SAP",
+    "route": "Fiori/CAP sample now; licensed ERP environment next",
+    "source_repo": "https://github.com/contextqaai/testing-lab-sap-fiori-cap",
+    "access": "Host the existing CAP sample; obtain an approved S/4HANA/ECC test/demo environment for ERP workflows.",
+    "finding": "The public-edition basic trial is a shared, limited exploration environment. SAP states that partners cannot use that trial for testing, demo and development. The advanced S/4HANA trial has infrastructure/hosting charges.",
+    "limit": "Do not use the basic trial as the commercial testing lab. UI5/CAP is not an S/4HANA backend or Windows SAP GUI.",
+    "scenario": "First: event registration and admin confirmation in CAP. Later: a selected synthetic purchase request in an approved ERP test tenant.",
+    "sources": [
+      "https://github.com/SAP-samples/ui5-cap-event-app",
+      "https://www.sap.com/australia/products/erp/s4hana/trial.html",
+      "https://www.sap.com/products/erp/cloud-erp-private/trial.html",
+      "https://learning.sap.com/courses/implementing-sap-s-4hana-cloud-public-edition/exploring-system-landscapes-for-implementation_c5d3efa2-8d0b-4ae4-af9c-4f4fc7c55764"
+    ],
+    "needs": [
+      "Choose Fiori/CAP, S/4HANA or ECC",
+      "Approved partner/customer test landscape",
+      "Allowed synthetic transaction",
+      "Browser versus desktop runner qualification"
+    ],
+    "assessed_on": "2026-10-25",
+    "live_environment_verified": false,
+    "crawler_execution_verified": false,
+    "contextqa_execution_verified": false,
+    "public_demo_rights_verified": false
+  },
+  {
+    "id": "workday",
+    "vendor": "Workday",
+    "route": "Personal development tenant beta or existing test tenant",
+    "source_repo": null,
+    "access": "Workday currently advertises open developer registration and requests for personal development tenants in beta. Verify allocation and demo rights before relying on it.",
+    "finding": "A newer public developer route exists; older company-admin-only documentation does not capture every current option. Development-tenant access is not proof that all native HCM/payroll modules or role flows are available.",
+    "limit": "No account or tenant was created. Do not use employee records or imply full Workday product coverage from an Extend exercise.",
+    "scenario": "Proposed Extend app: submit a synthetic service request, review it as an authorized approver and verify its status.",
+    "sources": [
+      "https://blog.workday.com/en-us/workday-open-developer-platform-generally-available.html",
+      "https://developer.workday.com/documentation/GUID-a256a22b-f9c9-465a-9c52-3162ce9b819a"
+    ],
+    "needs": [
+      "Existing tenant or personal-beta account route",
+      "Tenant availability and allowed modules",
+      "Approved requester/approver identities",
+      "Permission for public synthetic evidence"
+    ],
+    "assessed_on": "2026-10-25",
+    "live_environment_verified": false,
+    "crawler_execution_verified": false,
+    "contextqa_execution_verified": false,
+    "public_demo_rights_verified": false
+  },
+  {
+    "id": "servicenow",
+    "vendor": "ServiceNow",
+    "route": "Approved demo/test instance; PDI for permitted personal learning",
+    "source_repo": null,
+    "access": "ServiceNow offers Personal Developer Instances for learning, exploration and experimentation, with availability, hibernation and reclamation limits.",
+    "finding": "The PDI guide expressly excludes business/production use. For this commercial growth experiment, qualify a licensed/partner demo instance and its permitted audience instead of assuming a free PDI can be a shared marketing sandbox.",
+    "limit": "No instance is allocated. A GitHub app export requires a ServiceNow runtime; it is not a self-hosted web app. No general permissive license was found on the inspected training export, so it was not rebranded or republished.",
+    "scenario": "Proposed synthetic service request: submit, route to a test queue, update status and confirm the requester view.",
+    "sources": [
+      "https://developer.servicenow.com/print_page.do?category=developer-program&identifier=personal-developer-instance-guide-introduction&module=guide&release=zurich",
+      "https://github.com/ServiceNow/devtraining-application-release"
+    ],
+    "needs": [
+      "Permitted licensed/partner demo instance",
+      "Application/release choice",
+      "Dedicated limited test roles",
+      "Session expiry, reset and no outbound notifications"
+    ],
+    "assessed_on": "2026-10-25",
+    "live_environment_verified": false,
+    "crawler_execution_verified": false,
+    "contextqa_execution_verified": false,
+    "public_demo_rights_verified": false
+  },
+  {
+    "id": "pega",
+    "vendor": "Pegasystems / Pega",
+    "route": "Practice environment for qualification; approved tenant for demos",
+    "source_repo": null,
+    "access": "Pega Academy describes a 30-day Community Edition practice environment. Confirm current allocation, allowed usage and expiry; use an approved licensed environment for a shared commercial demonstration.",
+    "finding": "The official React SDK is public, but it needs a compatible Pega server and Constellation-enabled application. Its code license does not supply the Pega backend. Select an exact released SDK/server pair rather than unpinned main.",
+    "limit": "No Community Edition account, licensed tenant or connected SDK run is verified. The public SDK is not a complete Pega clone.",
+    "scenario": "Proposed case workflow: create a synthetic request, route for approval, request missing information and complete the case.",
+    "sources": [
+      "https://academy.pega.com/topic/pega-platform-and-application-development/v4",
+      "https://github.com/pegasystems/react-sdk"
+    ],
+    "needs": [
+      "Community Edition or existing nonproduction tenant",
+      "Exact Pega version and UI architecture",
+      "Approved case type and test roles",
+      "Commercial recording/demo permission and expiry plan"
+    ],
+    "assessed_on": "2026-10-25",
+    "live_environment_verified": false,
+    "crawler_execution_verified": false,
+    "contextqa_execution_verified": false,
+    "public_demo_rights_verified": false
+  },
+  {
+    "id": "infor",
+    "vendor": "Infor",
+    "route": "Product-specific customer/partner test tenant",
+    "source_repo": null,
+    "access": "Choose the actual product, such as CloudSuite Industrial, M3 or LN, and obtain an authorized nonproduction tenant. A generally available self-service full-ERP sandbox was not established by this assessment.",
+    "finding": "Infor OS Portal is a browser entry point for integrated applications; app access depends on identity, roles and product configuration. Public design-system components alone do not reproduce an ERP workflow.",
+    "limit": "No Infor tenant or runtime is verified. No product-wide compatibility claim is made.",
+    "scenario": "Proposed after product selection: find a synthetic item/order, perform one allowed status transition and verify the changed state.",
+    "sources": [
+      "https://developer.infor.com/tutorials/portal-and-workspaces",
+      "https://developer.infor.com/tutorials/security-and-user-management/67d82a566ec13166516df081"
+    ],
+    "needs": [
+      "Exact Infor product and version",
+      "Authorized test tenant and product permissions",
+      "Dedicated test user and synthetic records",
+      "Allowed UI/API workflow and reset procedure"
+    ],
+    "assessed_on": "2026-10-25",
+    "live_environment_verified": false,
+    "crawler_execution_verified": false,
+    "contextqa_execution_verified": false,
+    "public_demo_rights_verified": false
+  }
+]

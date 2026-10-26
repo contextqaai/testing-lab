@@ -68,3 +68,9 @@ This is an educational learning resource. Original source, licenses and credits 
 ## Reproduce, triage and fix
 
 [Explore the two evidence-backed cases](https://contextqaai.github.io/testing-lab/triage.html): a reproduced API status defect with an open fix PR, and a disclosed browser persistence regression with a verified baseline. [Walkthrough and verification limits](TRIAGE.md).
+
+## Enterprise environments
+
+[Enterprise access assessment](ENTERPRISE.md) · [Public enterprise guide](https://contextqaai.github.io/testing-lab/enterprise.html) · [Oracle APEX Customers source](https://github.com/contextqaai/testing-lab-oracle-apex/tree/26.2)
+
+Oracle, SAP, Workday, ServiceNow, Pega and Infor are separated into installable samples and tenant-dependent qualification paths. Workday now advertises a personal developer-tenant beta. ServiceNow PDI and SAP basic-trial restrictions mean a commercial shared demo needs an appropriate approved environment. None of these vendor environments is claimed as live or tested.
