@@ -1,3 +1,5 @@
+<a href="https://contextqaai.github.io/testing-lab/"><img src="lab/assets/contextqa-logo.svg" alt="ContextQA" width="200"></a>
+
 # ContextQA Testing Lab
 
 Real source. Explicit assertions. Reproducible failures.
@@ -56,3 +58,9 @@ The [public hub](https://contextqaai.github.io/testing-lab/) and HTML app are de
 ## Expanded source attribution
 
 Additional educational forks: dotnet/eShop and NimblePros/eShopOnWeb (MIT); mongodb-developer/mern-stack-example (Apache-2.0); spring-petclinic/spring-framework-petclinic (Apache-2.0); SAP-samples/ui5-cap-event-app (Apache-2.0 with exceptions in source); trailheadapps/ebikes-lwc and visualforce-to-lwc (CC0-1.0); vercel/next-learn (MIT). Source availability does not imply upstream endorsement, compatibility certification or hosted service availability.
+
+## ContextQA learning resources
+
+[Public learning hub](https://contextqaai.github.io/testing-lab/) · [Stack/platform setup](https://github.com/contextqaai/testing-lab/blob/main/PLATFORMS.md) · [Report or reproduce an issue](https://github.com/contextqaai/testing-lab/issues)
+
+This is an educational learning resource. Original source, licenses and credits remain intact. Public report links appear only after actual execution; recorded evidence is labeled separately from a fresh run.
