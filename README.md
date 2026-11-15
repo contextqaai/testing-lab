@@ -1,4 +1,4 @@
-<a href="https://contextqaai.github.io/testing-lab/"><img src="lab/assets/contextqa-logo.svg" alt="ContextQA" width="200"></a>
+<a href="https://contextqa.com/?utm_source=github&utm_medium=community&utm_campaign=salesforce_testing_initiative&utm_content=testing-lab_logo"><img src="lab/assets/contextqa-logo.svg" alt="ContextQA" width="200"></a>
 
 # ContextQA Testing Lab
 
@@ -26,6 +26,14 @@ Learn to test an application end to end, inspect the evidence, introduce a regre
 | Built with Lovable | [Open guide](PLATFORMS.md#lovable) | Platform guide; no Lovable-built deployment verified |
 | Built with Replit | [Open guide](PLATFORMS.md#replit) | Platform guide; import/deployment unverified |
 | SAP ECC / S/4HANA / classic GUI | [Open guide](PLATFORMS.md#sap-old-and-new-represent-the-real-boundary) | Sandbox/runner required; no live environment |
+
+## Join the ContextQA Salesforce Testing Initiative
+
+This repository is part of [ContextQA's Salesforce testing community initiative](https://github.com/contextqaai/contextqa-salesforce). Salesforce admins, developers, QA engineers and community leaders are invited to contribute scenarios, improve guides and share reproducible examples.
+
+[Explore Salesforce testing with ContextQA](https://contextqa.com/solutions/salesforce-testing/?utm_source=github&utm_medium=community&utm_campaign=salesforce_testing_initiative&utm_content=testing-lab_readme) · [Contribute or propose a scenario](https://github.com/contextqaai/contextqa-salesforce/blob/main/CONTRIBUTING.md) · [Invite your Salesforce community](https://github.com/contextqaai/contextqa-salesforce/blob/main/COMMUNITY.md) · [Discuss your workflow](https://contextqa.com/book-a-demo/?utm_source=github&utm_medium=community&utm_campaign=salesforce_testing_initiative&utm_content=testing-lab_demo)
+
+Participation does not require a ContextQA purchase. Follow this repository's setup, license and evidence limits; local simulations, native checks and proposed exercises are distinct. When sharing this resource, cite this repository and [ContextQA](https://contextqa.com/). This independent initiative does not imply Salesforce endorsement.
 
 ## The learning journey
 
